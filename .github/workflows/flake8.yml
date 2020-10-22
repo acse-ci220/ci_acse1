@@ -21,7 +21,6 @@ jobs:
 
     strategy:
       fail-fast:false
-
       matrix:
         name: [
           python36-ubuntu1804,
