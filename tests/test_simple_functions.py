@@ -1,7 +1,9 @@
 import pytest
+import numpy as np
 
 from simple_functions import my_sum
 from simple_functions.functions1 import factorial
+#from simple_functions.sine_compute import sin
 
 
 class TestSimpleFunctions(object):

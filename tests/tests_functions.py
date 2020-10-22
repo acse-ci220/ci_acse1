@@ -1,3 +1,4 @@
+import pytest
 import numpy as np
 
 from simple_functions.constants import pi
@@ -5,6 +6,7 @@ from simple_functions.constants import pi
 
 class TestPi(object):
     '''Class to test our constants are computed correctly'''
+    @pytest.mark.newTest
     def test_pi(self):
         '''Test computation of pi'''
         my_pi = pi(2)
